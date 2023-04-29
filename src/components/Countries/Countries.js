@@ -15,17 +15,17 @@ const Countries = () => {
     return (
         <div>
             <h1>Hello from Countries:{countries.length}</h1>
-            {
+            {/* {
                 countries.map(country => console.log(country) )
-            }
+            } */}
 
             {
                 countries.map(country => <Country 
-                country={country}
-                name={country.name.common} 
-                area={country.area}
-                population={country.population} 
-                region={country.region}></Country>)
+                country={country}>
+                 </Country>)
+                
+                
+               
             }
 
         </div>
